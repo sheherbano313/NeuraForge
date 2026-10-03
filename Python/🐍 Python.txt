@@ -1,0 +1,132 @@
+🐍 Python
+
+Python is a programming language.
+We use Python to give instructions to the computer.
+It is easy to read like English.
+
+print("Hello Python")
+
+
+➡ This line tells computer to show text on screen.
+
+✅ Variable
+
+A variable is used to store data.
+Think of it like a box that keeps a value.
+
+age = 20
+name = "Ali"
+
+
+➡ age stores number
+➡ name stores text
+
+✅ Data Types
+
+Data type tells what kind of data is stored.
+
+x = 10        # number (int)
+y = 2.5       # decimal (float)
+name = "Sara" # text (string)
+is_ok = True  # true/false (boolean)
+
+✅ List
+
+A list stores many values in one variable.
+Values can be changed later.
+
+marks = [80, 85, 90]
+
+print(marks[0])
+
+
+➡ Prints first value (80)
+
+✅ Tuple
+
+A tuple is like a list, but values cannot be changed.
+
+days = ("Mon", "Tue", "Wed")
+
+
+➡ Used when data should stay fixed.
+
+✅ Dictionary
+
+A dictionary stores data in key : value form.
+Used for real-world data.
+
+student = {
+    "name": "Ali",
+    "age": 20
+}
+
+print(student["name"])
+
+
+➡ Prints Ali
+
+✅ If – Else
+
+If–else checks condition and makes decision.
+
+age = 18
+
+if age >= 18:
+    print("Adult")
+else:
+    print("Not Adult")
+
+
+➡ If condition is true → if block runs
+➡ Otherwise → else block runs
+
+✅ For Loop
+
+A for loop repeats code fixed number of times.
+
+for i in range(3):
+    print("Hello")
+
+
+➡ Prints Hello 3 times
+
+✅ While Loop
+
+A while loop runs while condition is true.
+
+i = 1
+while i <= 3:
+    print(i)
+    i += 1
+
+
+➡ Stops when condition becomes false
+
+✅ Function
+
+A function is a block of code that we can use again and again.
+
+def add(a, b):
+    return a + b
+
+print(add(2, 3))
+
+
+➡ Function adds two numbers
+➡ Makes code clean and reusable
+
+✅ Input & Output
+
+Input takes value from user
+Output shows result
+
+name = input("Enter name: ")
+print("Hello", name)
+
+✅ Comment
+
+A comment is used to explain code.
+Python ignores comments.
+
+# This is a comment
